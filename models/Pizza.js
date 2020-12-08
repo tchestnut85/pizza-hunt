@@ -4,10 +4,10 @@ const PizzaSchema = new Schema({
     pizzaName: {
         type: String
     },
-    createdy: {
+    createdBy: {
         type: String
     },
-    cteatedAt: {
+    createdAt: {
         type: Date,
         default: Date.now
     },
